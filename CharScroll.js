@@ -3,6 +3,8 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  Scrolls the character list to currently sellected character
+// @copyright	 2018, Ratzor
+// @license MIT
 // @author       Ratzor
 // @match        https://www.pathofexile.com/account/view-profile/*/characters
 // @grant        none
