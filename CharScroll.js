@@ -4,13 +4,17 @@
 // @version      0.1
 // @description  Scrolls the character list to currently sellected character
 // @copyright	 2018, Ratzor
-// @license MIT
+// @license 	 MIT
 // @author       Ratzor
 // @match        https://www.pathofexile.com/account/view-profile/*/characters
 // @grant        none
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js
 // @require      https://gist.github.com/raw/2625891/waitForKeyElements.js
 // ==/UserScript==
+
+// ==OpenUserJS==
+// @author Ratzor
+// ==/OpenUserJS==
 
 waitForKeyElements ("#profile-inventory-controls .characters", scrollToChar);
 
